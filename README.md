@@ -2,20 +2,20 @@
 
 ## Project Overview
 
-This project demonstrates the implementation of the **Builder Design Pattern** for the `User` class. The Builder pattern is used to construct complex objects step-by-step, allowing you to create instances of the `User` class with only the attributes you want to provide.
+This project demonstrates the implementation of the Builder Design Pattern in a Flutter app using Dart. The Builder Pattern is used to create a User object with optional attributes in a flexible and readable way.
 
-## Requirements
+## Project Overview
 
-### Requirement 1: Create User Class
+### The project consists of:
+A User class with attributes: firstName, lastName, age, and phone.
+A UserBuilder class to construct the User object step-by-step.
+A Flutter app that displays the User details with custom styling.
+The Builder Design Pattern is useful when you want to create objects with many optional parameters or enforce a specific construction process.
 
-**Title:** Create User Class  
-**Description:**  
-The `User` class has multiple attributes, including:
-- First name (required)
-- Last name (required)
-- Age (optional)
-- Phone (optional)
+## Features
 
-The `UserBuilder` class is used to set these attributes. Finally, the `build()` function is called to create an instance of the `User` class with the provided data.
+Builder Pattern Implementation: Create User objects with optional attributes using the UserBuilder.
+Custom Styling: Display user details with bold labels and colored text.
+Modular Code: The project is organized into separate files for better maintainability.
 
-**Note:** The first name and last name are required attributes when instantiating a `User` object.
+
